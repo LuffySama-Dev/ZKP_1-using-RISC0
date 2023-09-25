@@ -1,0 +1,10 @@
+[package]
+name = "host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+multiply-methods = { path = "../methods" }
+risc0-zkvm = { version = "0.18.0" }
+serde = "1.0"
+bincode = "1.3"
